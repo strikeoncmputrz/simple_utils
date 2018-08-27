@@ -24,6 +24,7 @@ num_decode = int(sys.argv[2])
 
 dec = encoded_line
 
+#Decode the string N times. 
 for i in range(0, num_decode):
 	dec = base64.decodestring(dec)
 
